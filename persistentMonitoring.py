@@ -76,7 +76,7 @@ while True:
 			else:
 				for web in contenido:
 					test = str(web.strip())
-					if lines.find(test):
+					if (lines.find(test) != -1):
 						print colored('[/!\] Mining with ' + test, 'red')
 
 
